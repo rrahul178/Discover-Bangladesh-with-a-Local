@@ -4,6 +4,7 @@
 export const fallbackPackages = [
   {
     id: "p1",
+    image_url: "/destinations/old-dhaka.jpg",
     title: "Old Dhaka Heritage Walk",
     summary:
       "Rickshaw rides, centuries-old lanes, Armenian church, Mughal-era landmarks and the best street food, with a local who knows every shortcut.",
@@ -20,6 +21,7 @@ export const fallbackPackages = [
   },
   {
     id: "p2",
+    image_url: "/destinations/sundarbans.jpg",
     title: "Sundarbans Mangrove Escape",
     summary:
       "Three days by boat through the world's largest mangrove forest — wildlife, quiet rivers and village life at the edge of the delta.",
@@ -36,6 +38,7 @@ export const fallbackPackages = [
   },
   {
     id: "p3",
+    image_url: "/destinations/srimangal.jpg",
     title: "Srimangal Tea & Rainforest",
     summary:
       "Rolling tea gardens, Lawachara rainforest, seven-layer tea and the Khasi and Manipuri communities of the Sylhet hills.",
@@ -51,6 +54,7 @@ export const fallbackPackages = [
   },
   {
     id: "p4",
+    image_url: "/destinations/bagerhat.jpg",
     title: "Bangladesh Classic — 7 Days",
     summary:
       "A tailored journey across Old Dhaka, ancient mosques of Bagerhat, the Sundarbans and the tea hills of Sylhet.",

@@ -9,6 +9,9 @@ function Card({ p }) {
   const msg = `Hi ${SITE.guideName}, I'm interested in "${p.title}". Could you share availability and the itinerary?`;
   return (
     <article className="card pkg">
+      {p.image_url && (
+        <img className="pkg-img" src={p.image_url} alt={p.title} loading="lazy" width="600" height="400" />
+      )}
       <div className="pkg-top">
         <span className="badge">{p.category}</span>
         <span className="muted">{p.duration}</span>
