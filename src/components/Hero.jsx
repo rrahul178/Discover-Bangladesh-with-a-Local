@@ -4,6 +4,7 @@ export default function Hero() {
   return (
     <section id="home" className="hero">
       <div className="container hero-inner">
+        <div className="hero-text">
         <p className="eyebrow">Beyond Bangladesh · Private tours with a local</p>
         <h1>
           Explore Bangladesh <em>with a Local</em>
@@ -25,6 +26,20 @@ export default function Hero() {
             <li key={t}>{t}</li>
           ))}
         </ul>
+        </div>
+        <figure className="hero-photo">
+          <img
+            src="/guide.jpg"
+            alt={`${SITE.guideName}, your local guide`}
+            width="800"
+            height="1000"
+            fetchpriority="high"
+          />
+          <figcaption>
+            <b>{SITE.guideName}</b>
+            {SITE.guideTitle}
+          </figcaption>
+        </figure>
       </div>
       <div className="hero-shape" aria-hidden="true" />
     </section>

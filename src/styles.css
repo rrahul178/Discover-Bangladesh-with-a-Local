@@ -65,7 +65,11 @@ a { color: var(--clay); }
 .hero { position: relative; overflow: hidden; padding: 110px 0 100px; background:
   radial-gradient(900px 400px at 85% -10%, rgba(224,164,88,.45), transparent 60%),
   radial-gradient(700px 400px at 0% 100%, rgba(47,107,84,.18), transparent 60%), var(--cream); }
-.hero-inner { position: relative; z-index: 2; max-width: 780px; }
+.hero-inner { position: relative; z-index: 2; display: grid; grid-template-columns: 1.4fr 1fr; gap: 56px; align-items: center; }
+.hero-photo { margin: 0; justify-self: end; width: min(100%, 360px); }
+.hero-photo img { display: block; width: 100%; height: auto; aspect-ratio: 4/5; object-fit: cover; object-position: center top; border-radius: 180px 180px var(--radius) var(--radius); box-shadow: var(--shadow); border: 6px solid #fff; }
+.hero-photo figcaption { margin-top: 12px; text-align: center; font-size: .9rem; color: var(--muted); }
+.hero-photo figcaption b { display: block; color: var(--green); font-family: "Fraunces", serif; font-size: 1.1rem; }
 .hero h1 em { color: var(--clay); font-style: italic; }
 .lead { font-size: 1.2rem; color: var(--muted); max-width: 600px; }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 14px; margin: 28px 0; }
@@ -75,7 +79,7 @@ a { color: var(--clay); }
 
 /* About */
 .about { display: grid; grid-template-columns: 380px 1fr; gap: 64px; align-items: center; }
-.portrait { aspect-ratio: 4/5; border-radius: 200px 200px var(--radius) var(--radius); background: linear-gradient(160deg, var(--green-2), var(--gold)); display: grid; place-items: center; color: rgba(255,255,255,.85); font-weight: 600; box-shadow: var(--shadow); }
+.portrait { display: block; width: 100%; height: auto; aspect-ratio: 4/5; object-fit: cover; object-position: center top; border-radius: 200px 200px var(--radius) var(--radius); box-shadow: var(--shadow); background: var(--sand); }
 .points { list-style: none; padding: 0; margin: 28px 0 0; display: grid; gap: 14px; }
 .points li { display: grid; gap: 2px; padding-left: 18px; border-left: 3px solid var(--gold); }
 .points span { color: var(--muted); font-size: .95rem; }
@@ -155,6 +159,9 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--gold); bord
   .section { padding: 64px 0; }
   .about, .contact { grid-template-columns: 1fr; gap: 36px; }
   .portrait { max-width: 300px; }
+  .hero { padding: 64px 0 72px; }
+  .hero-inner { grid-template-columns: 1fr; gap: 36px; }
+  .hero-photo { justify-self: center; width: min(78%, 280px); order: -1; }
   .burger { display: block; }
   .links { position: absolute; top: 66px; left: 0; right: 0; background: var(--cream); border-bottom: 1px solid var(--line); flex-direction: column; align-items: flex-start; padding: 18px 20px; gap: 14px; display: none; }
   .links.open { display: flex; }

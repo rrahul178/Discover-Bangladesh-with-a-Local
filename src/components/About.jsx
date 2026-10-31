@@ -10,9 +10,14 @@ export default function About() {
   return (
     <section id="about" className="section">
       <div className="container about">
-        <div className="portrait" role="img" aria-label="Guide portrait placeholder">
-          <span>Your photo here</span>
-        </div>
+        <img
+          className="portrait"
+          src="/guide.jpg"
+          alt={`${SITE.guideName}, local guide in Bangladesh`}
+          width="800"
+          height="1000"
+          loading="lazy"
+        />
         <div>
           <p className="eyebrow">About your guide</p>
           <h2>Hi, I'm {SITE.guideName}</h2>
