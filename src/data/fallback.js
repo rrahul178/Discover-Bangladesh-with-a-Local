@@ -69,12 +69,12 @@ export const fallbackPackages = [
 ];
 
 export const fallbackDestinations = [
-  { id: "d1", name: "Old Dhaka", region: "Dhaka", category: "Local Culture", description: "A living museum of Mughal-era lanes, markets, river life and legendary food.", gradient: "linear-gradient(135deg,#b4532a,#e0a458)" },
-  { id: "d2", name: "Sundarbans", region: "Khulna", category: "Nature", description: "UNESCO mangrove forest, home of the Royal Bengal tiger and endless tidal creeks.", gradient: "linear-gradient(135deg,#1f5c44,#6aa57a)" },
-  { id: "d3", name: "Srimangal", region: "Sylhet", category: "Nature", description: "Tea capital of Bangladesh — green hills, rainforest and calm mornings.", gradient: "linear-gradient(135deg,#2f6b3b,#a7c957)" },
-  { id: "d4", name: "Bagerhat", region: "Khulna", category: "Heritage", description: "The Sixty Dome Mosque and a 15th-century city of brick and terracotta.", gradient: "linear-gradient(135deg,#7a4b2a,#c89f6a)" },
-  { id: "d5", name: "Paharpur", region: "Naogaon", category: "Heritage", description: "Somapura Mahavihara, one of the great Buddhist monasteries of South Asia.", gradient: "linear-gradient(135deg,#8c5a3c,#d9b48f)" },
-  { id: "d6", name: "Cox's Bazar", region: "Chattogram", category: "Nature", description: "One of the world's longest natural sea beaches, with fresh seafood at sunset.", gradient: "linear-gradient(135deg,#1b6a8a,#6cc4d9)" },
+  { id: "d1", image_url: "/destinations/old-dhaka.jpg", name: "Old Dhaka", region: "Dhaka", category: "Local Culture", description: "A living museum of Mughal-era lanes, markets, river life and legendary food.", gradient: "linear-gradient(135deg,#b4532a,#e0a458)" },
+  { id: "d2", image_url: "/destinations/sundarbans.jpg", name: "Sundarbans", region: "Khulna", category: "Nature", description: "UNESCO mangrove forest, home of the Royal Bengal tiger and endless tidal creeks.", gradient: "linear-gradient(135deg,#1f5c44,#6aa57a)" },
+  { id: "d3", image_url: "/destinations/srimangal.jpg", name: "Srimangal", region: "Sylhet", category: "Nature", description: "Tea capital of Bangladesh — green hills, rainforest and calm mornings.", gradient: "linear-gradient(135deg,#2f6b3b,#a7c957)" },
+  { id: "d4", image_url: "/destinations/bagerhat.jpg", name: "Bagerhat", region: "Khulna", category: "Heritage", description: "The Sixty Dome Mosque and a 15th-century city of brick and terracotta.", gradient: "linear-gradient(135deg,#7a4b2a,#c89f6a)" },
+  { id: "d5", image_url: "/destinations/paharpur.jpg", name: "Paharpur", region: "Naogaon", category: "Heritage", description: "Somapura Mahavihara, one of the great Buddhist monasteries of South Asia.", gradient: "linear-gradient(135deg,#8c5a3c,#d9b48f)" },
+  { id: "d6", image_url: "/destinations/coxs-bazar.jpg", name: "Cox's Bazar", region: "Chattogram", category: "Nature", description: "One of the world's longest natural sea beaches, with fresh seafood at sunset.", gradient: "linear-gradient(135deg,#1b6a8a,#6cc4d9)" },
 ];
 
 export const fallbackReviews = [];
