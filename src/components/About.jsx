@@ -20,14 +20,25 @@ export default function About() {
         />
         <div>
           <p className="eyebrow">About your guide</p>
-          <h2>Hi, I'm {SITE.guideName}</h2>
-          <p className="muted">{SITE.guideTitle}</p>
-          <p>
-            {/* ✏️ নিজের গল্প লিখুন: কোথায় বড় হয়েছেন, কেন গাইড হলেন, কোন জায়গা সবচেয়ে প্রিয় */}
-            I grew up in Bangladesh and I love sharing it the way locals live it — through food, rivers,
-            markets, history and the people who make each place special. Whether it is a single-day walk
-            through Old Dhaka or a week across the country, every trip is planned around you.
+          <h2>My Story – Discover Bangladesh with Me</h2>
+          <p className="muted">
+            {SITE.guideName} · {SITE.guideTitle}
           </p>
+          <p>
+            Born and raised in Kishoreganj, Bangladesh, I have a deep love for my country's natural
+            beauty, rich history, and vibrant culture. With experience in guiding travellers, I enjoy
+            helping visitors discover the real Bangladesh beyond the usual tourist destinations.
+            Sylhet, the Sundarbans, and Cox's Bazar are among my favourite places.
+          </p>
+          <p>
+            Speaking Bengali, English, and Hindi, I aim to make every journey safe, enjoyable, and
+            memorable while sharing the warmth of Bangladeshi hospitality, traditions, and local stories.
+          </p>
+          <ul className="chips about-langs" aria-label="Languages spoken">
+            <li>Bengali</li>
+            <li>English</li>
+            <li>Hindi</li>
+          </ul>
           <ul className="points">
             {points.map(([t, d]) => (
               <li key={t}>

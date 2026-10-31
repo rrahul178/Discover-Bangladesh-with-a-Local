@@ -6,10 +6,10 @@ export const SITE = {
   intro:
     "Discover the hidden beauty, rich history, culture and everyday life of Bangladesh through authentic local experiences.",
   guideName: "Rahul Acharjee", // ← আপনার নাম
-  guideTitle: "Licensed local guide & storyteller", // ← নিজের পরিচয়
+  guideTitle: "Local guide from Kishoreganj", // ← নিজের পরিচয়
   whatsapp: "8801711428936", // ← দেশের কোড সহ, + ছাড়া (যেমন 8801712345678)
   email: "rrahul178@gmail.com", // ← আপনার ইমেইল
-  location: "Dhaka, Bangladesh",
+  location: "Kishoreganj, Bangladesh",
   facebook: "", // ← ঐচ্ছিক
   instagram: "", // ← ঐচ্ছিক
   tripadvisor: "", // ← ঐচ্ছিক
